@@ -1,18 +1,10 @@
 # Varun_Raj_fetchround1
-```
 # Health Check Script
 
 ## Overview
 This project implements a health check script that monitors the availability of a set of HTTP endpoints. The script reads a configuration file in YAML format, performs health checks on the specified endpoints every 15 seconds, and logs the availability percentage to the console. The script runs indefinitely until the user stops it manually.
 
 ## File Structure
-```
-your_project_directory/
-│
-├── requirements.txt
-├── health_check.py
-└── config.yaml
-```
 
 - **requirements.txt**: Lists the required Python packages.
 - **health_check.py**: The main script that performs the health checks.
@@ -24,9 +16,9 @@ The script logs the availability percentage of each URL domain over the lifetime
 Availability Percentage = 100 * (Number of UP requests / Total number of requests)
 ```
 Example output:
-fetch.com has 67% availability percentage
-www.fetchrewards.com has 50% availability percentage
 
+
+<img width="624" alt="image" src="https://github.com/user-attachments/assets/8f6ce039-96f7-4dd8-a3c0-1e81b95e53cd" />
 
 ```
 
