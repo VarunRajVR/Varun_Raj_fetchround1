@@ -24,7 +24,7 @@ Example output:
 
 ## Prerequisites
 Before running the script, ensure you have Python and pip installed on your system. You can check if they are installed by running:
-```bash
+```
 python --version
 pip --version
 ```
