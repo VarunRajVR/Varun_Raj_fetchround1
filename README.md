@@ -20,11 +20,11 @@ Example output:
 
 <img width="624" alt="image" src="https://github.com/user-attachments/assets/8f6ce039-96f7-4dd8-a3c0-1e81b95e53cd" />
 
-```
+
 
 ## Prerequisites
 Before running the script, ensure you have Python and pip installed on your system. You can check if they are installed by running:
-```
+```bash
 python --version
 pip --version
 ```
