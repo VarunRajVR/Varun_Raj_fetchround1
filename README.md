@@ -14,8 +14,6 @@ your_project_directory/
 └── config.yaml
 ```
 
-- **Dockerfile**: Defines the Docker image for the project.
-- **docker-compose.yml**: Defines the Docker Compose configuration.
 - **requirements.txt**: Lists the required Python packages.
 - **health_check.py**: The main script that performs the health checks.
 - **config.yaml**: The configuration file containing the list of HTTP endpoints to monitor.
@@ -26,9 +24,10 @@ The script logs the availability percentage of each URL domain over the lifetime
 Availability Percentage = 100 * (Number of UP requests / Total number of requests)
 ```
 Example output:
-```
 fetch.com has 67% availability percentage
 www.fetchrewards.com has 50% availability percentage
+
+
 ```
 
 ## Prerequisites
@@ -41,7 +40,7 @@ If they are not installed, please install them from the official Python website:
 
 ## Installing Requirements
 To install the required packages listed in `requirements.txt`, run the following command:
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -52,7 +51,7 @@ To run the health check script, follow these steps:
    ```
    python health_check.py
    ```
-3. When prompted, enter the path to the configuration file, e.g., `/absolute/path/to/config.yaml`.
+3. When prompted, enter the path to the configuration file, e.g., `/path/to/config.yaml`.
 
 ## Stopping the Script
 To stop the script, press `Ctrl + C` in the terminal where the script is running. This will terminate the script and stop the health checks.
@@ -65,8 +64,8 @@ To change the configuration file:
 4. or simply, add a new file, and give the appropriate path to the new file when prompted. 
 5. Restart the script to apply the new configuration.
 
-## Example Configuration File (config.yaml)
-```
+
+
 
 
 
