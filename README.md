@@ -1,6 +1,4 @@
 # Varun_Raj_fetchround1
-Sure! Here's a `README.txt` file that includes all the requested information:
-
 ```
 # Health Check Script
 
